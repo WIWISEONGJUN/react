@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "concurrently \"cd front-end\" \"npm run start --prefix ./front-end \""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
